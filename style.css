@@ -5,6 +5,8 @@
   font-family: "Roboto", sans-serif;
 }
 
+/* Section 1 */
+
 #main,
 #footer {
   background-color: #1f2937;
@@ -21,7 +23,7 @@
 
 .navbar a {
   text-decoration: none;
-  color: #e5e7eb;
+  color: gray;
 }
 
 .navbar {
@@ -58,7 +60,7 @@
 
 .main-content-left {
   font-size: 18px;
-  color: #e5e7eb;
+  color: grey;
 }
 
 .main-content-left button {
@@ -83,3 +85,46 @@
   width: 400px;
   height: 200px;
 }
+
+/* Section 2 */
+
+#two h1 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.img-gallery {
+  display: flex;
+  justify-content: space-around;
+  width: 55%;
+  margin: auto;
+}
+
+.img-container {
+  height: 120px;
+  width: 120px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  /* background: url("https://images.unsplash.com/photo-1505533321630-975218a5f66f?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D"); */
+}
+
+.item {
+  height: 200px;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.item p {
+  margin-top: 10px;
+  font-size: 13px;
+  color: gray;
+  text-align: center;
+}
+
