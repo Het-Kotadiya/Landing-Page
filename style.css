@@ -180,3 +180,16 @@
 .action .btn{
     border: 2px solid white;
 }
+
+
+/* Section 5 */
+#footer{
+    height: 70px;
+}
+#footer p{
+    text-align: center;
+    color: #f9faf8;
+    padding-top: 32px;
+    font-size: 15px;
+    font-weight: 100;
+}
