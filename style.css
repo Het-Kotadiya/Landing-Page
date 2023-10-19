@@ -63,7 +63,7 @@
   color: grey;
 }
 
-.main-content-left .btn {
+.btn {
   color: white;
   background-color: #3882f6;
   padding: 5px 20px 5px 20px;
@@ -137,20 +137,46 @@
   padding-top: 80px;
 }
 
-.quote-container{
-    width: 60%;
-    height: 175px;
-    margin: auto;
+.quote-container {
+  width: 60%;
+  height: 175px;
+  margin: auto;
 }
 
-.quote-container p{
-    font-size: 30px;
-    font-style: italic;
-    font-weight: 100;
-    color: rgb(42, 40, 40);
+.quote-container p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 100;
+  color: rgb(42, 40, 40);
 }
 
-.quote-container #author{
-   text-align: end;
-   font-weight: bold;
+.quote-container #author {
+  text-align: end;
+  font-weight: bold;
+}
+
+/* Section 4 */
+
+#four {
+  height: 250px;
+  padding-top: 90px;
+}
+
+.action {
+  width: 60%;
+  height: 120px;
+  margin: auto;
+  background-color: #3882f6;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.action-text{
+    color: #f9faf8;
+}
+
+.action .btn{
+    border: 2px solid white;
 }
