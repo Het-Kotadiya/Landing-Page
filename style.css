@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main,
+#footer {
+  background-color: #1f2937;
+}
+
+.navbar h1 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: red;
+    width: 80%;
+    margin: auto;
+}
